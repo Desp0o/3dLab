@@ -551,6 +551,8 @@ h6 { font-size: 16px; }
 .aali_tm_button.border .svg{
 	background-color: transparent;
 }
+
+/* პირველი ბუტონის ფერები */
 .aali_tm_button a{
 	box-sizing: border-box;
 	text-decoration: none;
