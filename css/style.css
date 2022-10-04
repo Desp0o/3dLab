@@ -2563,7 +2563,7 @@ input[type=number] {
 	border-radius: 100%;
 	text-align: center;
 	line-height: 48px;
-	color: #ea4343;
+	color: var(--darkBlue);
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -2572,7 +2572,7 @@ input[type=number] {
 	        transition: all .3s ease;
 }
 .aali_tm_copyright .social ul li a:hover{
-	background-color: #ea4343;
+	background-color: var(--darkBlue);
 	color: #fff;
 }
 .aali_tm_copyright .social span{
@@ -2632,11 +2632,13 @@ input[type=number] {
 .aali_tm_copyright .bottom .right ul li a:hover{
 	color: #fff;
 }
+
+/* ბოტომ ბორდერი */
 .aali_tm_copyright .border{
 	position: absolute;
 	width: 320px;
 	height: 300px;
-	border: 6px solid #fff;
+	border: 6px solid var(--darkBlue);
 	top: -200px;
 	left: -45px;
 }
@@ -2646,7 +2648,7 @@ input[type=number] {
 	height: 143px;
 	top: -77px;
 	right: 60px;
-	background-color: #ea4343;
+	background-color: var(--darkBlue);
 }
 .aali_tm_copyright .square a{
 	position: absolute;
@@ -2989,7 +2991,7 @@ input[type=number] {
 #bus{
 	background-image: url(../images/2.png);
 	background-size: cover;
-	background-position: -240px;
+	background-position: -235px;
 }
 
 .qveda_kubiki{
@@ -3016,4 +3018,8 @@ input[type=number] {
 }
 #kursebis-leqtori_agwera{
 	color: white;
+}
+
+#bottom_logo{
+	width: 100px !important;
 }
