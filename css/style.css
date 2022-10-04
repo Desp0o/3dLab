@@ -3053,3 +3053,8 @@ input[type=number] {
 	left: -10%;
 	top:35%;
 }
+
+#bottom_right{
+	display: flex !important;
+	gap: 20px !important;
+}
