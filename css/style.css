@@ -2981,13 +2981,13 @@ input[type=number] {
 }
 
 #metro{
-	background-image: url(./images/1.png);
+	background-image: url(../images/1.png);
 	background-size: cover;
 	background-position: -200px;
 }
 
 #bus{
-	background-image: url(./images/2.png);
+	background-image: url(../images/2.png);
 	background-size: cover;
 	background-position: -250px;
 }
