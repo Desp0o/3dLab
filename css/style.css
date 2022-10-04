@@ -3023,3 +3023,31 @@ input[type=number] {
 #bottom_logo{
 	width: 100px !important;
 }
+
+#kursebis-saatebi{
+	color: black;
+	font-weight: 600;
+	font-size: 17px;
+}
+
+#kursebis-fasi{
+	color: #000;
+	font-weight: 600;
+	font-size: 17px;
+	word-spacing: 0.9em;
+}
+
+#kursebis-fasi-gadaxazuli{
+	font-family: georgianf;
+	position: relative;
+}
+
+#kursebis-fasi-gadaxazuli::after{
+	content: '';
+	position: absolute;
+	height: 2px;
+	width: 120%;
+	background-color: red;
+	left: -10%;
+	top:35%;
+}
