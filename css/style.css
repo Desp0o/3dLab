@@ -2951,6 +2951,7 @@ input[type=number] {
 	.aali_tm_modalbox .service_popup_informations .main_title h3{font-size: 22px;}
 	.number_contact{
 		color: var(--darkBlue) !important;
+		-webkit-text-fill-color:var(--darkBlue) !important;
 	}
 
 	.insta_responsive{
