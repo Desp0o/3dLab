@@ -2958,6 +2958,18 @@ input[type=number] {
 	}
 }
 
+@media (max-width:321px) {
+	.elposta{
+		font-size: 20px !important;
+	}
+	.number_contact{
+		font-size: 20px !important;
+	}
+	#bus{
+		background-position: -200px !important;
+	}
+}
+
 
 
 
