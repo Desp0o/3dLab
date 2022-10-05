@@ -2952,6 +2952,10 @@ input[type=number] {
 	.number_contact{
 		color: var(--darkBlue) !important;
 	}
+
+	.insta_responsive{
+		margin-top: 10px !important;
+	}
 }
 
 
