@@ -3092,3 +3092,17 @@ input[type=number] {
 #number_contact{
 	color: var(--darkBlue) !important;
 }
+
+#veryBottomEmail{
+	text-decoration: none;
+	color: unset;
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+
+#veryBottomEmail:hover{
+	color: var(--darkBlue);
+}
