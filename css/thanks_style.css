@@ -1,0 +1,24 @@
+@font-face {
+    font-family: georgianf;
+    src: url(./font/bpg_nino_mtavruli_bold.ttf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #3B3B3B;
+    overflow-y: hidden;
+}
+
+.thanks{
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    color: #8792B7;
+    font-family: georgianf;
+}

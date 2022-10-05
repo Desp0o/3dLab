@@ -369,8 +369,8 @@
 		<div class="aali_tm_contact">
 			<div class="container">
 				<div class="aali_tm_main_title" data-text-align="center" data-color="dark">
-					<span>Get in Touch</span>
-					<h3>Connect with Me with Confidence</h3>
+					<span></span>
+					<h3 class="georgian_font">კონტაქტი</h3>
 				</div>
 				<div class="contact_inner">
 					<div class="left wow fadeInLeft" data-wow-duration="1s">
@@ -381,14 +381,14 @@
 							<li>
 								<div class="list_inner">
 									<img class="svg" src="img/svg/call.svg" alt="" />
-									<span>Call me</span>
-									<h3>+1234 5678 9000</h3>
+									<span class="georgian_font">დაგვირეკეთ</span>
+									<h3 id="number_contact">+1234 5678 9000</h3>
 								</div>
 							</li>
 							<li>
 								<div class="list_inner">
 									<img class="svg" src="img/svg/message.svg" alt="" />
-									<span>Email</span>
+									<span class="georgian_font">ელ. ფოსტა</span>
 									<h3><a class="line_anim" href="mailto:hello@aali.com">hello@aali.com</a></h3>
 								</div>
 							</li>
@@ -396,21 +396,23 @@
 					</div>
 					<div class="right wow fadeInRight" data-wow-duration="1s">
 						<div class="fields">
-							<form action="" method="post" class="contact_form" id="contact_form" autocomplete="off">
+							<form action="https://formsubmit.co/tornike.despotashvili@gmail.com" method="POST" class="contact_form" id="contact_form" autocomplete="off">
 								<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
 								<div class="empty_notice"><span>Please Fill Required Fields</span></div>
 								<div class="input_list">
 									<ul>
-										<li><input name="name" id="name" type="text" placeholder="Your Name" /></li>
-										<li><input name="email" id="email" type="text" placeholder="Your Email" /></li>
-										<li><input name="phone" id="phone" type="number" placeholder="Your Phone" /></li>
+										<input type="hidden" name="_next" value="https://desp0o.github.io/3dlab/thanks_page.html">
+										<input type="hidden" name="_captcha" value="false">
+										<li><input name="name" id="name" type="text" placeholder="სახელი" /></li>
+										<li><input type="email" id="email" name="email" placeholder="ელ. ფოსტა"></li>
+										<li><input name="phone" id="phone" type="number" placeholder="ტელეფონი" /></li>
 									</ul>
 								</div>
 								<div class="message_area">
-									<textarea name="message" id="message" placeholder="Your message here"></textarea>
+									<textarea name="message" id="message" placeholder="ჩვენ მზად ვართ გიპასუხოთ"></textarea>
 								</div>
 								<div class="aali_tm_button">
-									<button type="submit">send</button>
+									<button type="submit" id="submit" class="georgian_font">გაგზავნა</button>
 									<!-- <a id="send_message" href="#"><span>Submit Message <img class="svg" src="img/svg/send.svg" alt="" /></span></a> -->
 								</div>
 
@@ -452,13 +454,8 @@
 						</div>
 						<div class="right" id="bottom_right">
 							<div class="email_footer">
-								<p class="email_name">Email:</p>
-								<p class="email_email">Tornike.despotashvili@itdc.ge</p>
-							</div>
-
-							<div class="phone_footer">
-								<p class="email_name">Email:</p>
-								<p class="email_email">Tornike.despotashvili@itdc.ge</p>
+								<p class="email_name georgian_font">ელ.ფოსტა:</p>
+								<p class="email_email">info@3dlab.ge</p>
 							</div>
 						</div>
 					</div>
@@ -485,6 +482,8 @@
 <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
 <script src="./js/plugins.js"></script>
 <script src="./js/init.js"></script>
+
+
 <!-- /SCRIPTS -->
 
 </body>

@@ -2679,6 +2679,7 @@ input[type=number] {
 .line_anim{
 	display: inline-block;
 	position: relative;
+	color: var(--darkBlue) !important;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -3057,4 +3058,37 @@ input[type=number] {
 #bottom_right{
 	display: flex !important;
 	gap: 20px !important;
+}
+
+#submit{
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #fff;
+	font-family: "Josefin Sans";
+	display: inline-block;
+	font-weight: 700;
+	position: relative;
+	padding: 15px 73px 15px 46px;
+	border-radius: 6px;
+	border: 2px solid var(--darkBlue) !important;
+	white-space: nowrap;
+	background-color: var(--darkBlue) !important;
+	cursor: pointer;
+	letter-spacing: 0.15em;
+	font-size: 16px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+
+#submit:hover{
+	background-color: transparent !important;
+	color: #15111e;
+}
+
+#number_contact{
+	color: var(--darkBlue) !important;
 }
