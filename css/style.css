@@ -65,6 +65,11 @@ img.svg{
 	width: 15px;
 	height: 15px;
 }
+
+.location_pin{
+	width: auto !important;
+	height: 15px;
+}
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color: #aaa6b2;
 }
@@ -2681,6 +2686,7 @@ input[type=number] {
 	display: inline-block;
 	position: relative;
 	color: var(--darkBlue) !important;
+
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -2703,6 +2709,12 @@ input[type=number] {
 	width:100%;
 	left:0;
 	right:auto;
+}
+
+
+
+.misamarti{
+	color: var(--darkBlue) !important;
 }
 
 /*---------------------------------------------------*/
@@ -3041,7 +3053,7 @@ input[type=number] {
 	font-weight: 600;
 	color: black;
 }
-#kursebis-leqtori_agwera{
+.kursebis-leqtori_agwera{
 	color: white;
 }
 
@@ -3140,3 +3152,13 @@ input[type=number] {
 	height: 100%;
 }
 
+.silabusi{
+	font-weight: 900 !important;
+	font-size: 26px !important;
+	color: var(--darkBlue) !important;
+	margin-top: 0px 0px !important;
+}
+
+a{
+	color: unset;
+}
