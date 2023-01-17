@@ -37,7 +37,7 @@
 /*---------------------------------------------------*/
 
 html {
-	overflow-x: hidden;
+	
 	padding: 0px;
 	margin: 0px;
 	
@@ -1918,7 +1918,6 @@ h6 { font-size: 16px; }
 }
 .aali_tm_testimonials .left .image{
 	position: absolute;
-	max-width: 31%;
 	margin-left: 150px;
 	
 }
@@ -2806,7 +2805,7 @@ input[type=number] {
 	.aali_tm_hero .stroke_text{font-size: 200px;right: -125px;margin-top: -44px;}
 	.aali_tm_about .center .small{font-size: 18px;}
 	.aali_tm_about .center h3{font-size: 40px;}
-	.aali_tm_about .center .subtitle{font-size: 25px;margin-top: 10px;}
+	.aali_tm_about .center .subtitle{font-size: 25px;margin-top: 0px; bottom: 100px; top: 0;}
 	.aali_tm_about .text p{margin-bottom: 20px;}
 	.aali_tm_about .center .title{margin-bottom: 23px;}
 	.aali_tm_about .border{height: 200px;margin-right: -30px;}
@@ -2847,7 +2846,7 @@ input[type=number] {
 	.aali_tm_testimonials ul li .text{font-size: 30px;}
 	.aali_tm_testimonials ul{margin-top: 60px;}
 	.aali_tm_testimonials{padding: 140px 0px 135px 0px;}
-	.aali_tm_testimonials .left .image{margin-left: 90px;max-width: 35%;}
+	.aali_tm_testimonials .left .image{margin-left: 90px;max-width: 60%;}
 	.aali_tm_testimonials .border{height: 350px;margin-right: -250px;}
 	.aali_tm_testimonials .quote i{font-size: 60px;}
 	.aali_tm_testimonials .quote{width: 150px;height: 210px;}
@@ -3161,4 +3160,17 @@ input[type=number] {
 
 a{
 	color: unset;
+}
+
+#leqtoris_surati{
+	position: relative;
+	height: 100%;
+
+}
+
+#leqtoris_surati_img{
+	width: 100% !important;
+	 
+	position: sticky;
+	top: 0;
 }
